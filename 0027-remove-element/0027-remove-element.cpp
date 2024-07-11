@@ -1,5 +1,5 @@
-// fast：找新array(不含val)
-// slow：指向update的位置
+// fast：找不含val的新值
+// slow：放新值，並update位置
 
 class Solution {
 public:
