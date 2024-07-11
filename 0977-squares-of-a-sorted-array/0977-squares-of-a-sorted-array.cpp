@@ -1,3 +1,4 @@
+// 快速排序 O(n + nlog n)
 class Solution {
 public :
     vector<int> sortedSquares(vector<int>& nums) {
