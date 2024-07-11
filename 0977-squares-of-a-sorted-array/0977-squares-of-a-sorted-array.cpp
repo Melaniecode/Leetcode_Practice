@@ -5,6 +5,7 @@ public :
     vector<int> sortedSquares(vector<int>& nums) {
         int n = nums.size()-1;
         vector<int> result(nums.size(), 0); // 建立一個新vector，size和原本一樣，值都先填成0
+        
         for(int i = 0, j = nums.size() - 1; i <= j;) {
             if(nums[i]*nums[i] < nums[j]*nums[j]) {
                 result[n--] = nums[j]*nums[j];
