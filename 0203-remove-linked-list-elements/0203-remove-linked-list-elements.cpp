@@ -8,12 +8,12 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
- 
+
 //設置一个虛擬節點再做刪除 O(n)
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
-        ListNode* dummyHead = new ListNode(0); //虛擬節點
+        ListNode* dummyHead = new ListNode(0); //虛擬節點，這樣就不會出現NULL
         dummyHead->next = head;
         ListNode* cur = dummyHead;
         while (cur->next != NULL) {
