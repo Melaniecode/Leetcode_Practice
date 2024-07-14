@@ -16,13 +16,13 @@ public:
         ListNode* temp;
         ListNode* cur = head;
         ListNode* pre = NULL;
-        
-        while(cur != NULL) {
+
+        while(cur) {
             temp = cur->next;
             cur->next = pre;
             pre = cur;
-            cur = temp;
-        }
+            cur = temp; 
+        } 
         return pre;
     }
 };
