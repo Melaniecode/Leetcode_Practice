@@ -7,6 +7,11 @@
 - [0509-fibonacci-number](https://github.com/Melaniecode/Leetcode_Practice/tree/main/0509-fibonacci-number) 
 - [0062-unique-paths](https://github.com/Melaniecode/Leetcode_Practice/tree/main/0062-unique-paths)
 - [0070-climbing-stairs](https://github.com/Melaniecode/Leetcode_Practice/tree/main/0070-climbing-stairs)
+
+## Stack
+## 觀念
+- FILO
+- [ , , ] 左是底部，右是頂
 ## 參考資料
 - https://shannonhung.github.io/posts/lecture-dp/#Step-2-Recursion-Memoization
 - https://algo.itcharge.cn/10.Dynamic-Programming
