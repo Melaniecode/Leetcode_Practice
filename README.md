@@ -11,7 +11,12 @@
 ## Stack
 ## 觀念
 - FILO
-- [ , , ] 左是底部，右是頂
+- [ , , ] 靠左是底部，靠右是頂部
+- 要注意頂部會不會full，底部有沒有empty
+- 
+  1. 推入（Push）： 使用 append() 方法將元素添加到列表的末尾。
+  2. 彈出（Pop）： 使用 pop() 方法從列表的末尾移除並返回元素。
+  3. 查看頂部元素（Peek）： 使用索引 [-1] 來獲取列表的最後一個元素。
 ## 參考資料
 - https://shannonhung.github.io/posts/lecture-dp/#Step-2-Recursion-Memoization
 - https://algo.itcharge.cn/10.Dynamic-Programming
